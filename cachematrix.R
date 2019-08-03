@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Computing the inverse of a matrix can be time consuming 
+## Once computed, the inverse can be stored to be 
+## accessed quickly for further coding
 
-## Write a short comment describing this function
+## To store the inverse, we must first create a matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -18,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function takes the inverse of the matrix created above.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
